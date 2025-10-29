@@ -1,0 +1,7 @@
+name: trivify
+version: 1.0.0
+description: A massively multiplayer trivia battle royale game for Reddit
+permissions:
+  - redis
+  - scheduler
+  - realtime

@@ -1,0 +1,38 @@
+{
+  "name": "trivify",
+  "version": "0.0.0",
+  "description": "A massively multiplayer trivia battle royale game for Reddit",
+  "main": "src/main.tsx",
+  "scripts": {
+    "build": "devvit build",
+    "dev": "devvit dev",
+    "upload": "devvit upload",
+    "test": "jest",
+    "lint": "eslint src/**/*.{ts,tsx}",
+    "format": "prettier --write src/**/*.{ts,tsx}"
+  },
+  "devDependencies": {
+    "@devvit/kit": "latest",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "@devvit/public-api": "0.12.1"
+  },
+  "keywords": [
+    "reddit",
+    "devvit",
+    "game",
+    "trivia",
+    "battle-royale",
+    "multiplayer"
+  ],
+  "author": "Hackathon Participant",
+  "license": "BSD-3-Clause",
+  "type": "module",
+  "private": true
+}
